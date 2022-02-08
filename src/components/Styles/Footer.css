@@ -1,0 +1,34 @@
+.footer {
+  max-width: 70%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+
+.footer > .footer_cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.footer_cols > ul {
+  list-style: none;
+}
+
+.footer_cols > ul > li {
+  line-height: 1.9;
+}
+
+.footer_cols > ul > li > a {
+  color: #999;
+  text-decoration: none;
+}
+
+.footer_cols > ul > li > a:hover {
+  color: #fff !important;
+}
+
+.footer > p {
+  color: #999;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
