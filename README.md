@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 
-Runs the app in the development mode.<br />
+Run the app in the development mode.<br />
 [https://netflix-clone-61fee.web.app/](https://netflix-clone-61fee.web.app/)
 
 # Nav&Header
