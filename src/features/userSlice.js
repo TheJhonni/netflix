@@ -1,23 +1,10 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchCount } from "./counter/counterAPI";
-
-const initialState = {
-  user: null,
-};
-
-export const incrementAsync = createAsyncThunk(
-  "counter/fetchCount",
-  async (amount) => {
-    const response = await fetchCount(amount);
-    // The value we return becomes the `fulfilled` action payload
-    return response.data;
-  }
-);
+import { createSlice } from "@reduxjs/toolkit";
 
 export const userSlice = createSlice({
   name: "user",
-  initialState,
-  // The `reducers` field lets us define reducers and generate associated actions
+  initialState: {
+    user: null,
+  },
   reducers: {
     login: (state, action) => {
       state.user = action.payload;
