@@ -3,17 +3,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Run the app in the development mode.<br />
 [https://netflix-clone-61fee.web.app/](https://netflix-clone-61fee.web.app/)
+# Login
 
-# Nav&Header
+![Login](Login.jpeg)
+# Credentials
 
-![Nav&Header](Nav&Header.jpeg)
-# HomeScreen
+![Credentials](Credentials.jpeg)
+# Homepage
 
-![HomeScreen](HomeScreen.jpeg)
-# Footer
-
-![Footer](Footer.jpeg)
-
+![Homepage](Homepage.jpeg)
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
@@ -49,7 +47,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-
-# Homepage
-
-![Homepage](Homepage.jpeg)
